@@ -9,7 +9,7 @@ public class token {
         Scanner sc = new Scanner(System.in); 
         
         int[] nums = new int[3];
-        int i, loop; 
+        int i, loop;
         int sum=0;
         int prod = 1;
         
