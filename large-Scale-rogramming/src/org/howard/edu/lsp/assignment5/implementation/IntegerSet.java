@@ -25,7 +25,7 @@ public class IntegerSet {
 		return list.size();	
 	}
 	
-	// returns true only if two sets are equal, order doesnt matter
+	// returns true only if two sets are equal, order doesn't matter
 	
 	public boolean equals(IntegerSet b) {
 		ArrayList<Integer> list2=b.list; 
@@ -54,6 +54,7 @@ public class IntegerSet {
 				return true; 
 			}
 		}
+		return false;
 	}
 	
 	// returns largest item
@@ -146,6 +147,8 @@ IntegerSet list4 = new IntegerSet(list);
 	public ArrayList<Integer> getlist(){ 
 		return list; 
 	}
+	
+
 	
 }
 
